@@ -5,3 +5,6 @@ controllers:
 trainer:
   path: trainer/license
   controller: App\Controller\TrainerController::number
+app_logout:
+  path: /logout
+  methods: GET
